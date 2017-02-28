@@ -1,0 +1,68 @@
+/*header {
+  background-color: #B9D2B9;
+  background-image:none;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10;
+  color: ;
+  text-align: ;
+  min-height: ;
+}
+*/
+
+/* ---  Navigation  ---*/
+
+.business-name a{
+	font-size: 1.35em;
+	margin: auto;
+	text-decoration: none;
+}
+
+.main-nav {
+	margin-top: 5px;
+	list-style: none;
+}
+
+.business-name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.main-nav a {
+	font-size: .95em;
+}
+
+.main-nav a:hover {
+	color: #699;
+}
+
+
+/* ----- Gallery ----- */
+
+
+.main-gallery li {
+	list-style: none;
+	padding: inherit;
+}
+
+/*background-color: rgba (0 0 0 0)*/
+
+
+/* ------  Media Queries --------*/
+
+/*Smart Phones*/
+  @media only screen and (max-width: 320px) {
+    main-body: #ff0;
+  }
+/*Tablets*/
+  @media only screen and (min-width: 768px max width:1024px) {
+      main-body: #ffa500;
+  }
+/*Laptop_Desktops*/
+  @media only screen and (min-width: 1025px) {
+      main-body: #f00;
+  }
