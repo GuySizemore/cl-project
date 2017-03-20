@@ -1,21 +1,2 @@
-This is my first attempt at an e-harmony video. #ILoveCats
-Beyond that, this is where I will be attempting to make my first web-page
-
-
-02/15/17
-*~Get Media Queries responsive
-*~Remove unordered list from <li> and center them on screen
-*~Add buttons for Instagram, Linkedin, etc.
-*~Make active links out of (portfolio, biography, store, content)
------Why does SquareSpace add so much unnecessary code?-------
-*~Add normalize .css
-
-
-02/16/17
-*~Add JQuery to code once solidified
---Original page's Media Queries are broken---
---Need portfolio with pictures and descriptions (should be last)-----
-*~Add section for email. (get updates of events)
-
-02/21/17
-~display inline
+This is a continuous project for codeLouisville.
+This is a mock-up of an local artist website and portfolio.

@@ -1,3 +1,44 @@
+/******** basic page styles *********/
+body {
+	margin: 0;
+	font-family: courier, verdana;
+	font-size: 1em;
+	background: #fafafa;
+}
+
+#wrapper {
+	margin: 0 auto;
+
+}
+
+/********* header styles ***********/
+
+#header {
+	float: left;
+	margin: 20px 0;
+	width: 100%;
+}
+
+h1 {
+	float: left;
+	margin:
+}
+
+#main-nav li {
+	list-style: none;
+	float: right;
+	margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
 /*header {
   background-color: #B9D2B9;
   background-image:none;
@@ -8,9 +49,9 @@
   text-align: ;
   min-height: ;
 }
-*/
 
-/* ---  Navigation  ---*/
+
+/* ---  Navigation  ---
 
 .business-name a{
 	font-size: 1.35em;
@@ -41,7 +82,7 @@
 }
 
 
-/* ----- Gallery ----- */
+/* ----- Gallery -----
 
 
 .main-gallery li {
@@ -52,17 +93,18 @@
 /*background-color: rgba (0 0 0 0)*/
 
 
-/* ------  Media Queries --------*/
+/* ------  Media Queries --------
 
-/*Smart Phones*/
+/*Smart Phones
   @media only screen and (max-width: 320px) {
     main-body: #ff0;
   }
-/*Tablets*/
+/*Tablets
   @media only screen and (min-width: 768px max width:1024px) {
       main-body: #ffa500;
   }
-/*Laptop_Desktops*/
+/*Laptop_Desktops
   @media only screen and (min-width: 1025px) {
       main-body: #f00;
   }
+	*/
