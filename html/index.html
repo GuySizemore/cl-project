@@ -7,37 +7,38 @@
 
   <!--Style Sheet -->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/foundation.css">
   <link rel="stylesheet" href="../css/normalize.css">
-
+  <link rel="stylesheet" href="../js/app.js">
 
 </head>
-<body>
 
+<div id="container">
+
+  <div id="header">
   <!--Navigation -->
-  <nav class="top-bar">
-    <ul class="title-area">
-      <l class="name">
-        <h1><a href="#">OVMI DESIGNS</a></h1>
-      </l>
-      <l class="toggle-topbar menu-icon">
-        <a href="#"><span>LOOK AROUND</span> </a>
-      </l>
-    </ul>
-    <div class="top-bar-section">
-      <ul class="right">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Biography</a></li>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Content</a></li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="navigation">
+      <ul class="title-area">
+        <div class="dropdown">
+          <li class="name dropbtn"><a href="#">OVMI DESIGNS</a></li>
+          <div class="dropdown-content">
+            <a href="#">Biography</a>
+            <a href="#">Portfolio</a>
+            <a href="#">About</a>
+          </div>
+        </div>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </nav><!--End Navigation -->
+  </div> <!--End Header Div -->
 
-  <div>
-    <ul class="gallery">
+<!--Main Content -->
+<div id="body">
+  <div class="main-gallery">
+    <ul>
       <li>
-        <a href="img/port_photo.png">
+        <a> <!--WHY!!!!! -->
         <img src="../img/port_photo.png"/>
       </li>
       <li>
@@ -49,22 +50,16 @@
         <img src="../img/cur_vit.png" />
       </li>
     </ul>
-  </div>
+  </div><!--End main-gallery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</div>  <!--End Body Div-->
 
-  <h1>
-      Louisville, KY based Designer / Maker
-  </h1>
-
-
-  <footer class="footer">
-    <span class="row full-width">
+<div id="footer">
+    <span>
       &copy;2017 Matthew Little.
     </span>
-  </footer>
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-  <script src="../js/app.js"></script>
-  </body>
+</div>   <!--End Footer Div -->
+
+
+</div> <!--End Container Div -->
   </html>

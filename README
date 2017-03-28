@@ -2,3 +2,21 @@ This is a continuous project for codeLouisville.
 This is a mock-up of an local artist website and portfolio.
 
 Included Foundation and JQuery libraries
+
+
+
+Steps for completion
+
+1. Affix footer to bottom of page
+2. make .main-gallery size responsive
+3. Make pages (A.home, B.portfolio, C.biography, D.about)
+3.A.
+
+3.B.
+   make image-gallery responsive
+   why is footer not staying on bottom
+3.C.
+
+3.D.
+
+4. move the dropdown menu

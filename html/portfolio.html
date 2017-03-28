@@ -3,56 +3,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" content="HTML,CSS,JavaScript">
-  <title>Portfolio </title>
+  <title>Portfolio</title>
 
   <!--Style Sheet -->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/foundation.css">
   <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../js/app.js">
 
 </head>
-<body>
+<div id="container">
 
-  <!--Navigation -->
-  <nav class="top-bar">
-    <ul class="title-area">
-      <l class="name">
-        <h1><a href="#">OVMI DESIGNS</a></h1>
-      </l>
-      <l class="toggle-topbar menu-icon">
-        <a href="#"><span>LOOK AROUND</span> </a>
-      </l>
-    </ul>
-    <div class="top-bar-section">
-      <ul class="right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Biography</a></li>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Content</a></li>
+  <div id="header">
+    <!--Navigation -->
+      <nav class="navigation">
+        <ul class="title-area">
+          <div class="dropdown">
+            <li class="name dropbtn"><a href="#">OVMI DESIGNS</a></li>
+            <div class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">Portfolio</a>
+              <a href="#">About</a>
+            </div>
+          </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </nav><!--End Navigation -->
+    </div> <!--End Header Div -->
+
+    <!--Main Content -->
+  <div id="body">
+    <div id="port-gallery">
+      <ul class="main-gallery" >
+        <li><a href="img/Seat1.png"><img src="../img/Seat1.png" width="150" alt="Wooden stool"><a/></li>
+        <li><a href="img/elder-jar.jpg"><img src="../img/elder-jar.jpg" width="150" alt="Elder Jar"><a/></li>
+        <li><a href="img/ash-vase.JPG"><img src="../img/ash-vase.JPG" width="150" alt="Ash Vase"><a/></li>
+        <li><a href="img/light.png"><img src="../img/light.png" width="150" alt="Light Base"><a/></li>
+        <li><a href="img/maple-bowl.png"><img src="../img/maple-bowl.png" width="150" alt="Maple Bowl"><a/></li>
+        <li><a href="img/mugs.jpg"><img src="../img/mugs.jpg" width="150" alt="Mugs"><a/></li>
+        <li><a href="img/oak-bowl.jpg"><img src="../img/oak-bowl.jpg" width="150" alt="Oak Bowl"><a/></li>
+        <li><a href="img/oak-void.jpg"><img src="../img/oak-void.jpg" width="150" alt="Oak-Void"><a/></li>
+        <li><a href="img/planter.png"><img src="../img/planter.png" width="150" alt="Planter"><a/></li>
+        <li><a href="img/stitched.jpg"><img src="../img/stitched.jpg" width="150" alt="Stitched-Vase"><a/></li>
+        <li><a href="img/voided-vessel.jpg"><img src="../img/voided-vessel.jpg" width="150" alt="Voided-Vessel"><a/></li>
+        <li><a href="img/wood-bowl.jpg"><img src="../img/wood-bowl.jpg" width="150" alt="Wood-Bowl"><a/></li>
       </ul>
-    </div>
-  </nav>
 
-<ul id="image-gallery" class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-  <li><a href="img/Seat1.png"><img src="../img/Seat1.png" width="150" alt="Wooden stool"><a/></li>
-  <li><a href="img/elder-jar.jpg"><img src="../img/elder-jar.jpg" width="150" alt="Elder Jar"><a/></li>
-  <li><a href="img/ash-vase.JPG"><img src="../img/ash-vase.JPG" width="150" alt="Ash Vase"><a/></li>
-  <li><a href="img/light.png"><img src="../img/light.png" width="150" alt="Light Base"><a/></li>
-  <li><a href="img/maple-bowl.png"><img src="../img/maple-bowl.png" width="150" alt="Maple Bowl"><a/></li>
-  <li><a href="img/mugs.jpg"><img src="../img/mugs.jpg" width="150" alt="Mugs"><a/></li>
-  <li><a href="img/oak-bowl.jpg"><img src="../img/oak-bowl.jpg" width="150" alt="Oak Bowl"><a/></li>
-  <li><a href="img/oak-void.jpg"><img src="../img/oak-void.jpg" width="150" alt="Oak-Void"><a/></li>
-  <li><a href="img/planter.png"><img src="../img/planter.png" width="150" alt="Planter"><a/></li>
-  <li><a href="img/stitched.jpg"><img src="../img/stitched.jpg" width="150" alt="Stitched-Vase"><a/></li>
-  <li><a href="img/voided-vessel.jpg"><img src="../img/voided-vessel.jpg" width="150" alt="Voided-Vessel"><a/></li>
-  <li><a href="img/wood-bowl.jpg"><img src="../img/wood-bowl.jpg" width="150" alt="Wood-Bowl"><a/></li>
-</ul>
+    </div><!--End m -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </div>  <!--End Body Div-->
 
-  <footer class="footer">
-    <span class="row full-width">
-      &copy;2017 Matthew Little.
-    </span>
-  </footer>
+  <div id="footer">
+      <span>
+        &copy;2017 Matthew Little.
+      </span>
+  </div>   <!--End Footer Div -->
 
-  </body>
-  </html>
+
+  </div> <!--End Container Div -->
+    </html>
