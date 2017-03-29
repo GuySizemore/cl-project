@@ -1,3 +1,6 @@
+
+
+/* Shadowbox */
 $(function () {
   var $overlay = $('<div id="overlay"></div>');
   var $image = $("<img>");

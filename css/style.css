@@ -1,13 +1,12 @@
 /********* Basic Styles **********/
 
-html {
+html,  {
    margin:0;
    padding:0;
    height:100%;
 }
 
 #container {
-   min-height:00%; /*WHAT WHAT WHAT WHAT WHAT*/
    position:relative;
 }
 
@@ -18,6 +17,7 @@ html {
 #body {
    padding-top
    padding-bottom:20px;   /* Height of the footer */
+
 }
 
 #footer {
@@ -102,12 +102,20 @@ html {
 /********* Main Content **********/
 
 .main-gallery li{
- display: inline-block;
+ display:inline-block;
  list-style: none;
- flex-wrap: wrap;
  padding: 8px;
  margin: 10px;
  justify-content: space-around;
+}
+
+.gallery li{
+  display: inline-block;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 8px;
+  margin: 10px;
 }
 
 .words {
@@ -160,35 +168,55 @@ textarea {
 
 
 /********* Media Queries **********/
+@media screen and (min-width:700px) and (max-width:910px){
+  .main-gallery {
+    margin-bottom: 15%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right:10%
+  }
+}
+
+@media screen and (min-width:700px){
+  .dropdown-content a{
+    display: none; /*hides dropbtn until small screens*/
+  }
+}
 
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  .navigation .title-area .dropbtn{
-     display: block;
-     }  /* show dropbtn on small screens */
+@media screen and (min-width:900px){
+  .main-gallery {
+    margin-bottom: 15%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+  .navigation .title-area .name,
+  .navigation .title-area li{
+    font-style: italic;
+    display:inline-block;
+  }
 
 }
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+  .navigation .title-area .dropdown .name{
+     display: block;
+     margin-left: 23%;
+     font-family: "serif", Times;
+     font-style: normal;
+     }   /*show dropbtn on small screens*/
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
   .navigation .title-area li  {
     display: none;
-    }   /* hide everything but dropbtn */
+    }    /*hide everything but dropbtn*/
 }
 
-@media screen and (max-width: 750px){
-  .navigation .title-area .name,
-  .navigation .title-area li {
-    float: none;
-    text-align: center;
-    font-size: 25px;
-    font-family: "serif", Times;
-    }
-}
 
-@media screen and (max-width: 800px){
-                     {
-                  display:hidden;
-                }
 
-}
 /********* End Media Queries **********/
