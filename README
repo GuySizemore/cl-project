@@ -1,2 +1,13 @@
 This is a continuous project for codeLouisville.
 This is a mock-up of an local artist website and portfolio.
+
+The use of jQuery is for the 'lightbox' effect on the Portfolio page.
+The media queries are basically labeled if they are for a practical use. I got a bit carried away.
+
+*The two main photos are supposed to be links to existing pages, I can not seem to figure out why the link is broken.
+
+
+It's not the prettiest code, but it's my little special baby.
+I plan on redoing this soon with the use of Foundations.
+
+Also, cats.
